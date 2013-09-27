@@ -99,8 +99,8 @@ public class ResponseUtils {
 
 	private static String getAPIEndPoint(Envs env) {
         //Hardcoding to Dev01
-        //String endPoint = Envs.DEV.toString();
-		return env.toString();
+        String endPoint = Envs.DEV.toString();
+		return endPoint;
 	}
 
     public static String getTubePredictionsByLineAndStation(String line, String station) {
