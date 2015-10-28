@@ -2,13 +2,7 @@ package com.tfl.api.config;
 
 public class AppProperties {
 
-	public static final String DEV_API_END_POINT = "http://dev01.dev.beta.tfl.gov.uk:81/";
-	public static final String UAT_API_END_POINT = "http://217.28.133.210:8002/";
-	public static final String COBWEB_API_END_POINT = "http://217.28.133.210:8015/";
-	public static final String BETA_API_END_POINT = "http://api.beta.tfl.gov.uk/";
-	public static final String STAGING_API_END_POINT = "http://origin.staging.beta.tfl.gov.uk:8080/";
-
-	public static final String BETA_API_KEY_AND_TOKEN = "&app_id=5c7f01fc&app_key=360fa86b796d7f52ae090eba2b762e5c";
+	public static final String BETA_API_KEY_AND_TOKEN = "";
 	public static final String LIVE_ESUI_API_END_POINT = "http://www.tfl.gov.uk/tfl/syndication/feeds/esubs/service-disruptions.xml";
 	
 	// Tube DLR Overground
@@ -16,7 +10,7 @@ public class AppProperties {
 	public static final String LIVE_ICS_WEEKEND_API_END_POINT = "http://www.tfl.gov.uk/tfl/syndication/feeds/disruptions-track-offset-weekend.xml";
 	
 	// Bus
-	public static final String LIVE_BUS_ICS_FEED_END_POINT = "http://origin.tfl.gov.uk/tfl/syndication/feeds/disruptions-buses-offset-now.xml";
+	public static final String LIVE_BUS_ICS_FEED_END_POINT = "http://tfl.gov.uk/tfl/syndication/feeds/disruptions-buses-offset-now.xml";
 	public static final String LIVE_BUS_ICS_WEEKEND_FEED_END_POINT = "http://origin.tfl.gov.uk/tfl/syndication/feeds/disruptions-buses-offset-weekend.xml";
 	
 	// Roads
@@ -24,7 +18,7 @@ public class AppProperties {
 	public static final String LIVE_ROADS_DISRUPTIONS_TIMS_END_POINT="http://www.tfl.gov.uk/tfl/syndication/feeds/tims_feed.xml";
 	
 	// Trams
-	public static final String STAGE_TRAM_ICS_FEED_END_POINT = "http://staging.tfl.gov.uk/tfl/syndication/feeds/disruptions-trams-offset-now.xml";
+	public static final String STAGE_TRAM_ICS_FEED_END_POINT = "http://tfl.gov.uk/tfl/syndication/feeds/disruptions-trams-offset-now.xml";
 	public static final String LIVE_TRAM_ICS_FEED_END_POINT = "http://tfl.gov.uk/tfl/syndication/feeds/disruptions-trams-offset-now.xml";
 	public static final String LIVE_TRAM_ICS_WEEKEND_FEED_END_POINT = "http://tfl.gov.uk/tfl/syndication/feeds/disruptions-trams-offset-weekend.xml";
 

@@ -74,7 +74,7 @@ public class ResponseUtils {
 			InvalidAPIRequest invalidRequest) {
 		String apiParams = invalidRequest.toString()
 				+ AppProperties.BETA_API_KEY_AND_TOKEN;
-		String invalidAPIRequest = AppProperties.DEV_API_END_POINT
+		String invalidAPIRequest = AppProperties.LINE_STATUS_API
 				+ apiParams.toString();
 		Response response = get(invalidAPIRequest).andReturn();
 		return String.valueOf(response.getStatusCode());
